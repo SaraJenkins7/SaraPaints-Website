@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SaraPaints</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SaraPaints.css">
+  </head>
+  <body>
+  <div id="wrapper">
+    <header>
+      <a href="index.html"><img src="SaraPaints.png" width="53%" alt="logo"></a>
+    </header>
+    <nav>
+      <ul class="dropdown">
+        <li><a href="index.html">Home</a></li>
+	<li class="altnav"><a href="artgallery.html">Art Gallery</a></li>
+	<li><button class="button">Pricing & Ordering</button>
+          <ul class="dropdown-content">
+            <li><a href="priceguide.html">Price Guide</a></li>
+            <li><a href="order.html">Order Here</a></li>
+          </ul>
+        </li>
+	<li class="altnav"><button class="button">From the Artist</button>
+          <ul>
+            <!-- <li><a href="videotutorials.html">Video Tutorials</a></li> -->
+            <li><a href="tipstricks.html">Tips & Tricks</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </li>
+	<li><a href="reviewforum.html">Review Forum</a></li>
+      </ul>
+    </nav>
+    <br>
+    <br>
+    <main>
+      <div class="pagename">
+        <h2>Order Here</h2>
+      </div>
+      <br>
+      <img src="orderscreen.JPG" class="orderpic1" alt="Paint Brushes">
+    <div id="orderscreen">
+      <br>
+      <form class="order">
+      <br>
+        <label for="medium">*Medium:</label>
+        <input type="text" name="medium" id="medium" required="required" list="mediums">
+          <datalist id="mediums">
+          <option>Acrylic</option>
+          <option>Woodburn</option>
+          <option>Watercolor</option>
+          <option>Pencil</option>
+        </datalist>
+        <br>
+        <label for="canvas">*Canvas:</label>
+        <input type="text" name="canvas" id="canvas" required="required" list="canvases">
+          <datalist id="canvases">
+          <option>11x14 Flat</option>
+          <option>16x20 Flat</option>
+          <option>18x24 Flat</option>
+          <option>11x14 Stretched</option>
+          <option>16x20 Stretched</option>
+          <option>18x24 Stretched</option>
+          <option>8.5x11 Paper</option>
+          <option>12x18 Paper</option>
+          <option>Milk Can</option>
+          <option>Watering Can</option>
+          <option>Cast Iron Griddle</option>
+          <option>Wood Cutting Board</option>
+          <option>Wood Box</option>
+          <option>Canvas Shoes</option>
+          <option>Canvas Tote</option>
+          <option>Saw</option>
+          <option>Glass Bulb Ornament</option>
+          <option>Custom (Specify in Description)</option>
+        </datalist>
+        <br>
+        <label for="image">Image:</label>
+        <input type="file" name="image">
+        <br>
+        <label for="description"> *Description:</label>
+        <textarea name="description" id="description" required="required" rows="5" cols="20"></textarea>
+        <h4>*Required Fields</h4>
+        <input type="submit" value="Submit Order" class="ordersubmit">
+        <br>
+      </form>
+      <img src="orderscreen.JPG" class="orderpic2" alt="Paint Brushes">
+    </div>
+      <br>
+      <br>
+      <div>
+        <footer>
+          <small><i>Copyright &copy; 2020 Sara Jenkins</i></small>
+        </footer>
+      </div>
+    </main>
+  </div>
+  </body>
+</html>

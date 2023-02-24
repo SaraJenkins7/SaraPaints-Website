@@ -1,0 +1,1074 @@
+* {
+  box-sizing: border-box; 
+  }
+body {
+  background-color: #FFB7A1;
+  font-family: Arial, Helvtica, sans-serif;
+  }
+main { 
+  background-color: #FFFFFF;
+  }
+header {
+  background-color: #FFFFFF;
+  text-align: center;
+  }
+nav {
+  font-weight: normal;
+  font-family: Arial, Helvtica, sans-serif; 
+  text-align: center; 
+  background-color: #4B7676;
+  color: #FFFFFF;
+  }
+nav a {
+  text-decoration: none;
+  }
+nav ul {
+  list-style-type: none;
+  color: #FFFFFF;
+  text-align: center;
+  }
+nav a:link {
+  color: #FFFFFF;
+  }
+nav a:visited {
+  color: #FFFFFF; 
+  }
+nav a:hover {
+  color: #C2D7D0;
+  }
+nav ul ul {
+  position: absolute; 
+  background-color: #FF7C55;
+  display: none; 
+  text-align: center;
+  padding: 0;
+  }
+nav ul ul li {
+  border: 1px solid #000000;
+  display: block;
+  width: 200px;
+  padding-left: 1em;
+  margin: auto;
+  }
+nav li:hover ul {
+  display: inline-block;
+  }
+h2 {
+  color: #000000;  
+  font-family: Arial, Helvtica, sans-serif;
+  margin: auto;
+  }
+p {
+  font-family: Arial, Helvtica, sans-serif;
+  color: #FFFFFF;
+  background-color: #FF7C55; 
+  font-style: normal; 
+  padding-left: 2%;
+  padding-right: 2%; 
+  padding-bottom: 5%;
+  padding-top: 5%; 
+  width: 90%; 
+  margin: auto; 
+  line-height: 150%;
+  }
+h3 {
+  text-align: center;
+  font-family: Arial, Helvtica, sans-serif;
+  }
+h4 {
+  text-align: center;
+  font-family: Arial, Helvtica, sans-serif;
+  }
+h5 {
+  text-align: center;
+  font-family: Arial, Helvtica, sans-serif;
+  }
+table {
+  width: 80%;
+  margin: auto;
+  border-color: #5F9595;
+  border-style: ridge;
+  box-shadow: 10px 10px 10px #000000; 
+  border-width: thick;
+  font-family: Arial, Helvtica, sans-serif;
+  }
+form {
+  display: block;
+  background-color: #C2D7D0;
+  font-family: Arial, Helvtica, sans-serif; 
+  justify-content: center;
+  }
+input {
+  margin-top: 10px;
+  display: block; 
+  margin: auto;
+  height: 30px;
+  }
+textarea {
+  margin-top: 10px;
+  display: block;
+  margin: auto;
+  }
+label {
+  float: left;
+  clear: left;
+  display: block;
+  padding-right: 10px;
+  margin-top: 10px; 
+  text-align: right;
+  margin: auto;
+  }
+footer {
+  text-align: center; 
+  background-color: #416666;
+  color: #FFFFFF; 
+  font-size: 125%; 
+  font-family: Arial, Helvtica, sans-serif;
+  }
+.altnav { text-align: center; }
+.button { border: none;
+          outline: none;
+          background-color: #4B7676;
+          color: #FFFFFF;
+          font-family: Arial, Helvtica, sans-serif; }
+.submit {
+  width: 100px;
+  } 
+.altrow { 
+  background-color: #FF7C55;
+  }
+.tablename {
+  text-align: center;
+  font-weight: bold; 
+  background-color: #C2D7D0;
+  }
+.introduction h2 {
+  text-align: center;
+  }
+.note {
+  text-align: center;
+  font-family: Arial, Helvtica, sans-serif;
+  }
+.introduction p {
+  text-align: center;
+  }
+.introduction img {
+  box-shadow: 10px 10px 10px #000000;
+  }
+.about h2 {
+  text-align: center; 
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  }
+.about p {
+  text-align: center;
+  grid-row: 2 / 4;
+  grid-column: 2 / 3;
+  }
+.about img {
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+  margin: auto; 
+  box-shadow: 10px 10px 10px #000000;
+  }
+.brushes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%; 
+  box-shadow: 10px 10px 10px #000000;
+  }
+.pagename h2 {
+  text-align: center;
+  }
+.artgallery img {
+  transition: all .5s ease;
+  }
+.artgallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 10px 10px #000000;
+  }
+.viddescription {
+  margin: auto;
+  }
+.tipspage img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px #000000;
+  margin: auto;
+  }
+.tipspage p {
+  box-shadow: 10px 10px 10px #000000;
+  }
+.blogimage {
+  box-shadow: 10px 10px 10px #000000;
+  }
+.review {
+  background-image: url(websitepict1.jpg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin-left: 100px;
+  opacity: 90%;
+  margin-top: -35px;
+  margin-bottom: 30px;
+  }
+.review form {
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  }
+.review textarea {
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  }
+.review submit {
+  width: 150px;
+  }
+#wrapper {
+  margin-left: auto;
+  margin-right: auto; 
+  width: 90%;  
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 10px #000000;
+  }
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+@media (max-width: 599px) {
+        body { 
+          width: 370px;
+          margin: auto;
+          }
+        main {
+          width: 350px;
+          }
+        header {
+          width: 350px;
+          }
+        nav {
+          padding-top: .2px;
+          padding-bottom: .2px;
+          text-align: center;
+          width: 350px;
+          font-size: 14px;
+          }
+        nav li { 
+          padding-bottom: 4px;
+          padding-top: 4px;
+          font-size: 14px;
+          }
+        nav ul {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          margin-left: -10%;
+          }
+        nav ul ul {
+          display: none;
+          padding: 0; 
+          margin-left: 10px;
+          margin-top: 2px;
+          font-size: 14px;
+          }
+        nav ul ul li {
+          display: block;
+          width: 80px; 
+          margin: auto;
+          font-size: 14px;
+          text-align: center; 
+          padding-right: 15px;
+          }
+        nav li:hover ul {
+          display: inline-block;
+          }
+        h2 {
+          font-size: 28px;
+          margin: auto;
+          }
+        p {
+          font-size: 15px;
+          padding-left: 2%;
+          padding-right: 2%; 
+          padding-bottom: 5%;
+          padding-top: 5%;
+          width: 85%;
+          margin-left: 3%;
+          margin-right: 33%;
+          line-height: 125%;
+          }
+        h3 {
+          font-size: 80%;
+          }
+        h4 {
+          font-size: 8px;
+          }
+        h5 {
+          font-size: 15px;
+          margin-top: -2%;
+          margin-bottom: 10%;
+          }
+        table {
+          font-size: 12px;
+          }
+        textarea {
+          width: 180px;
+          }
+        form { 
+          font-size: 24px;
+          }
+        label { 
+          width: 80px; 
+          font-size: 40%;
+          padding-left: 10px;
+          }
+        input { 
+          width: 180px; 
+          }
+        iframe { 
+          height: 225px;
+          margin-left: 10%;
+          }
+        footer {
+          font-size: 60%;
+          }
+        .button {
+          font-size: 14px;
+          }
+        .brushes {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 85%;
+          height: 25%;
+          }
+        .introduction {
+          display: grid;
+          grid-template-rows: 35px 100px 180px;
+          grid-template-columns: 60% 33%;
+          }
+        .introduction h2 {
+          grid-row: 1 / 2;
+          grid-column: 1 / 3;
+          margin-bottom: 20px;
+          margin-top: -5px;
+          font-size: 28px;
+          }
+        .introduction p {
+          grid-row: 2 / 4;
+          grid-column: 1 / 2;
+          margin: auto;
+          font-size: 11px;
+          }
+        .introduction img {
+          grid-row: 2 / 4;
+          grid-column: 2 / 3;
+          margin: auto;
+          width: 93%;
+          height: auto;
+          }
+        .about {
+          display: grid;
+          grid-template-rows: 75px 100px 120px;
+          grid-template-columns: 33% 60%;
+          }
+        .about h2 { 
+          grid-row: 1 / 2;
+          grid-column: 1 / 3; 
+          margin-top: 90px;
+          margin-bottom: 70px;
+          font-size: 32px;
+          }
+        .about p {
+          grid-row: 2 / 4;
+          grid-column: 2 / 3;
+          margin-left: 50px;
+          font-size: 11px;
+          margin-top: 70px;
+          }
+        .about img {
+          grid-row: 2 / 4;
+          grid-column: 1 / 2;
+          width: 93%;
+          height: auto;
+          margin-left: 20px;
+          margin-top: 60px;
+          }
+        .artgallery img {
+          margin: 10px;
+          box-shadow: 7px 7px 7px #000000;
+          height: 25%;
+          width: 25%;
+          }
+        .artgallery { 
+          text-align: center;
+          }
+        .altnav {
+          background-color: #5f9595; 
+          padding-right: 4%;
+          padding-left: 4%;
+          width: 320px;
+          margin-left: 3%;
+          }
+        .altnav button {
+          background-color: #5F9595;
+          }
+        .tablename {
+          font-size: 110%;
+          }
+        .note {
+          font-size: 50%;
+          }
+        .orderpic1 {
+          visibility: hidden;
+          width: 1%;
+          height: 1%;
+          }
+        .orderpic2 {
+          visibility: hidden; 
+          width: 1%;
+          height: 1%;
+          }
+        .tipspage {
+          background-color: #C2D7D0;
+          margin: 25px;
+          padding-bottom: 30px;
+          padding-top: 20px;
+          }
+        .tipspage img {
+          height: 30%;
+          width: 30%;
+          border-color: #FFFFFF;
+          border-style: dotted;
+          border-width: medium;
+          margin-left: 35%; 
+          padding-left: -40px;
+          }
+        .tipspage h3 {
+          font-size: 130%;
+          }
+        .tipspage p {
+          font-size: 80%;
+          border-color: #FFFFFF;
+          border-style: ridge;
+          border-width: thick;
+          margin-left: 7%;
+          margin-bottom: 7%;
+          }
+        .blog {
+          background-color: #C2D7D0;
+          margin-left: 10%;
+          margin-right: 10%;
+          padding-bottom: 25px;
+          display: grid;
+          grid-template-rows: 10% 40% 50%;
+          grid-template-columns: 100%;
+          }
+        .blog h3 { 
+          text-align: center; 
+          padding-top: 3%;
+          grid-row: 1 / 2;
+          grid-column: 1 / 2;
+          font-size: 16px;
+          margin-bottom: 3%;
+          }
+        .blog p { 
+          margin: auto;
+          text-align: center;
+          width: 85%;
+          grid-row: 3 / 4;
+          grid-column: 1 / 2;
+          margin-left: 7%;
+          margin-right: 7%;
+          font-size: 11px;
+          }
+        .blogimage {
+          width: 50%;
+          height: auto; 
+          grid-row: 2 / 3;
+          grid-column: 1 / 2;
+          margin-top: 5%;
+          margin-left: 25%;
+          }
+        .blog h4 {
+          margin-bottom: 1%;
+          }
+        .review { 
+          margin: auto;
+          }
+        .review form {
+          margin: auto;
+          width: 70%;
+          padding-top: .5%;
+          padding-bottom: .5%;
+          }
+        .ordersubmit {
+          margin-bottom: 3%;
+          }
+        .submit {
+          width: 35%;
+          height: 10%;
+          margin-top: -10%;
+          }
+        .review textarea {
+          width: 60%;
+          height: 60px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          }
+        #orderscreen {
+          width: 320px;
+          margin: auto;
+          }
+        #wrapper {
+          width: 350px;
+          margin: auto;
+          }
+}
+@media (min-width: 600px) and (max-width: 1023px) { 
+        nav {
+          font-size: 95%;
+          padding-top: .1px;
+          padding-bottom: .1px;
+          }
+        nav li {
+          display: inline;
+          padding-right: 5%;
+          padding-bottom: 5px;
+          font-size: 95%;
+          margin-left: -15px;
+          }
+        nav ul ul {
+          position: absolute;
+          display: none;
+          padding: 0;
+          margin-top: 20px;
+          margin-left: -135px;
+          }
+        nav ul ul li {
+          display: block;
+          width: 130px;
+          padding-left: .8em;
+          padding-top: .3em; 
+          margin: auto;
+          }
+        nav li:hover ul {
+          display: inline-block;
+          }
+        h2 {
+          font-size: 250%;
+          margin: auto;
+          }
+        p {
+          font-size: 110%;
+          padding-left: 2%;
+          padding-right: 2%; 
+          padding-bottom: 5%;
+          padding-top: 5%;
+          width: 85%;
+          margin-left: 3%;
+          margin-right: 33%;
+          line-height: 125%;
+          }
+        h3 {
+          font-size: 150%;
+          }
+        h4 {
+          font-size: 70%;
+          }
+        h5 {
+          font-size: 160%;
+          margin-top: -2px;
+          }
+        table {
+          font-size: 100%;
+          }
+        textarea {
+          width: 220px;
+          }
+        label {
+          width: 90px;
+          padding-left: 10px;
+          }
+        input {
+          width: 220px;
+          }
+        iframe {
+          height: 360px; 
+          margin-left: 68px;
+          }
+        footer {
+          font-size: 100%;
+          }
+        .button {
+          font-size: 95%;
+          }
+        .brushes {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 85%;
+          height: 25%;
+          }
+        .introduction {
+          display: grid;
+          grid-template-rows: 55px 150px 220px;
+          grid-template-columns: 75% 25%;
+          }
+        .introduction h2 {
+          grid-row: 1 / 2;
+          grid-column: 1 / 3;
+          margin-bottom: 20px;
+          margin-top: -5px;
+          }
+        .introduction p {
+          grid-row: 2 / 4;
+          grid-column: 1 / 2;
+          margin-left: 20px;
+          }
+        .introduction img {
+          grid-row: 1 / 4;
+          grid-column: 2 / 3;
+          width: 95%;
+          height: auto;
+          margin-right: 150px;
+          margin-left: -25px;
+          margin-top: 90px;
+          }
+        .about {
+          display: grid;
+          grid-template-rows: 100px 100px 120px;
+          grid-template-columns: 25% 75%;
+          }
+        .about h2 {
+          grid-row: 1 / 2;
+          grid-column: 2 / 3; 
+          margin-top: 50px;
+          }
+        .about p {
+          grid-row: 2 / 4;
+          grid-column: 2 / 3;
+          margin-left: 50px;
+          }
+        .about img {
+          grid-row: 1 / 4;
+          grid-column: 1 / 2;
+          width: 100%;
+          height: auto;
+          margin-left: 20px;
+          margin-top: 65px;
+          }
+        .artgallery img { 
+          margin: 20px;
+          box-shadow: 10px 10px 10px #000000;
+          height: 25%;
+          width: 25%;
+          }
+        .artgallery {
+          text-align: center;
+          }
+        .note {
+          font-size: 70%;
+          }
+        .orderpic1 {
+          visibility: hidden;
+          width: 1px;
+          height: 1px;
+          }
+        .orderpic2 {
+          visibility: hidden;
+          width: 1px;
+          height: 1px;
+          }
+        .tipspage {
+          background-color: #C2D7D0;
+          margin: 38px;
+          padding-bottom: 30px;
+          padding-top: 20px;
+          }
+        .tipspage img {
+          height: 120px;
+          width: 120px;
+          border-color: #FFFFFF;
+          border-style: dotted;
+          border-width: medium;
+          margin-left: 41%;
+          margin-top: 25px;
+          }
+        .tipspage h3 {
+          font-size: 180%;
+          }
+        .tipspage p {
+          font-size: 120%;
+          border-color: #FFFFFF;
+          border-style: ridge;
+          border-width: thick;
+          margin: auto;
+          }
+        .blog {
+          background-color: #C2D7D0;
+          margin-left: 70px;
+          margin-right: 70px;
+          padding-bottom: 25px;
+          display: grid;
+          grid-template-rows: 25% 75%;
+          grid-template-columns: 70% 30%;
+          }
+        .blog h3 { 
+          text-align: center; 
+          padding-top: 20px;
+          grid-row: 1 / 2;
+          grid-column: 1 / 3;
+          font-size: 32px;
+          }
+        .blog p { 
+          margin: auto;
+          text-align: center;
+          width: 75%;
+          grid-row: 2 / 3;
+          grid-column: 1 / 2;
+          margin-left: 7%;
+          }
+        .blogimage {
+          width: 115%;
+          height: auto; 
+          grid-row: 2 / 3;
+          grid-column: 2 / 3;
+          margin-top: 60px;
+          margin-left: -23%;
+          }
+        .blog h4 {
+          margin-top: 1%;
+          margin-bottom: 1%; 
+          }
+        .review { 
+          opacity: 90%;
+          margin: auto;
+          }
+        .review form {
+          width: 63%;
+          margin: auto;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          }
+        .review textarea {
+          width: 55%;
+          margin-top: .7%;
+          margin-bottom: 1px;
+          margin-left: 23%;
+          }
+        .submit {
+          margin-top: -2%;
+          }
+        #orderscreen {
+          padding-left: 25px; 
+          padding-right: 25px;
+          font-size: 92%;
+          } 
+        #wrapper {
+          min-width: 600px;
+          max-width: 960px;
+          margin: auto;
+          }
+}
+@media (min-width: 1024px) {
+        nav {
+          font-size: 140%; 
+          text-align: center;
+          padding-top: .1px;
+          padding-bottom: .1px;
+          border: none;
+          }
+        nav li {
+          display: inline;
+          padding-left: 24px;
+          padding-right: 32px; 
+          padding-bottom: 7px;
+          border: none;
+          }
+        nav ul ul {
+          position: absolute; 
+          display: none; 
+          padding: 0; 
+          margin-top: 1.5em;
+          margin-left: -8.2em; 
+          }
+        nav ul ul li {
+          display: block;
+          width: 200px;
+          padding-left: 1em;
+          margin: auto;
+          }
+        nav li:hover ul {
+          display: inline-block;
+          }
+        h2 {
+          font-size: 400%;
+          margin: auto;
+          }
+        p {
+          font-size: 145%; 
+          padding-left: 2%;
+          padding-right: 2%; 
+          padding-bottom: 5%;
+          padding-top: 5%; 
+          width: 90%; 
+          margin: auto; 
+          line-height: 150%;
+          }
+        h3 {
+          text-align: center;
+          font-size: 200%;
+          }
+        h4 {
+          text-align: center;
+          font-size: 80%;
+          }
+        h5 {
+          font-size: 250%;
+          margin-top: -8px;
+          } 
+        table {
+          width: 75%;
+          margin: auto;
+          font-size: 150%;
+          }
+        form { 
+          display: block;
+          width: 570px;
+          padding: 10px;
+          font-size: 23px;
+          justify-content: center;
+          grid-column: 2 / 3;
+          }
+        input {
+          margin-top: 10px;
+          display: block; 
+          margin: auto;
+          width: 330px;
+          height: 30px;
+          }
+        textarea {
+          margin-top: 10px;
+          display: block;
+          margin: auto;
+          width: 330px;
+          }
+        label {
+          float: left;
+          clear: left;
+          display: block;
+          width: 100px;
+          padding-right: 10px;
+          margin-top: 10px; 
+          text-align: right;
+          margin: auto;
+          }
+        iframe {
+          height: 520px;
+          margin-left: 123px;
+          }
+        footer {
+          text-align: center; 
+          font-size: 125%;
+          }
+        .button {
+          font-size: 100%;
+          }
+        .submit {
+          width: 100px;
+          } 
+        .tablename {
+          font-size: 150%;
+          }
+        .introduction h2 {
+          text-align: center;
+          grid-row: 1 / 2;
+          grid-column: 1 / 2;
+          }
+        .introduction p {
+          text-align: center;
+          grid-row: 2 / 4;
+          grid-column: 1 / 2;
+          }
+        .img2 {
+          grid-row: 1 / 4;
+          grid-column: 2 / 3; 
+          margin: auto; 
+          width: 85%;
+          height: auto;
+          margin-right: 15%;
+          }
+        .about h2 {
+          text-align: center; 
+          grid-row: 1 / 2;
+          grid-column: 2 / 3;
+          }
+        .about p {
+          text-align: center;
+          grid-row: 2 / 4;
+          grid-column: 2 / 3;
+          }
+        .about img {
+          grid-row: 1 / 4;
+          grid-column: 1 / 2;
+          margin: auto;
+          width: 70%;
+          height: auto;
+          }
+        .brushes {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 85%;
+          }
+        .introduction {
+          display: grid;
+          grid-template-rows: 45px 270px 270px;
+          grid-template-columns: 75% 25%;
+          }
+        .about {
+          display: grid;
+          grid-template-rows: 150px 100px 120px;
+          grid-template-columns: 25% 75%;
+          }
+        .artgallery img {
+          margin: 25px;
+          box-shadow: 10px 10px 10px #000000;
+          height: 300px;
+          width: 300px;
+          }
+        .artgallery {
+          text-align: center;
+          }
+        .orderpic1 {
+          float: left; 
+          margin-left: 20px;
+          width: 275px;
+          }
+        .orderpic2 {
+          float: right;
+          margin-left: 15px;
+          width: 275px;
+          }
+        .tipspage {
+          display: grid;
+          grid-template-rows: 130px 50px auto 130px 50px auto;
+          grid-template-columns: 1fr 1fr;
+          background-color: #C2D7D0;
+          margin: 38px;
+          padding-bottom: 30px;
+          padding-top: 20px;
+          }
+        .tipspage img {
+          margin-left: 35%;
+          margin-top: 10px; 
+          border-color: #FFFFFF;
+          border-style: dotted;
+          border-width: thick;
+          width: 180px;
+          height: 180px;
+          }
+        .tipspage h3 {
+          font-size: 250%;
+          }
+        .tipspage p {
+          border-color: #FFFFFF;
+          border-style: ridge; 
+          border-width: thick;
+          }
+        .blend {
+          grid-column: 1 / 2;
+          grid-row: 1 / 4;
+          }
+        .lighting {
+          grid-column: 2 / 3;
+          grid-row: 1 / 4;
+          }
+        .clean {
+          grid-column: 1 / 2;
+          grid-row: 4 / 7;
+          margin-top: 18px;
+          }
+        .inspired {
+          grid-column: 2 / 3; 
+          grid-row: 4 / 7;
+          margin-top: 18px;
+          }
+        .blog {
+          background-color: #C2D7D0;
+          margin-left: 70px;
+          margin-right: 70px;
+          padding-bottom: 25px;
+          display: grid;
+          grid-template-rows: 25% 75%;
+          grid-template-columns: 70% 30%;
+          }
+        .blog h3 { 
+          text-align: center; 
+          padding-top: 20px;
+          grid-row: 1 / 2;
+          grid-column: 1 / 3;
+          font-size: 45px;
+          }
+        .blog p { 
+          margin: auto;
+          text-align: center;
+          width: 75%;
+          grid-row: 2 / 3;
+          grid-column: 1 / 2;
+          }
+        .blogimage {
+          width: 300px;
+          height: 300px; 
+          grid-row: 2 / 3;
+          grid-column: 2 / 3;
+          margin-top: 60px;
+          margin-left: -10%;
+          }
+        .blog h4 {
+          margin-top: -12px; 
+          }
+        .review {
+          height: auto;
+          margin: auto;
+          opacity: 90%;
+          }
+        .review form {
+          margin: auto;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          margin-top: 3%;
+          margin-bottom: 3%;
+          }
+        .review textarea {
+          width: 75%;
+          margin-top: 10px;
+          margin-bottom: 25px;
+          }
+        .review submit {
+          width: 150px;
+          }
+        #wrapper {
+          margin-left: auto;
+          margin-right: auto; 
+          width: 90%; 
+          min-width: 960px;
+          max-width: 2048px;
+          }
+        #gallery {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          }
+        #orderscreen {
+          display: grid;
+          grid-template-columns: 20px 570px 20px;
+          grid-template-rows: auto;
+          }
+}

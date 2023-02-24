@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SaraPaints:Price Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SaraPaints.css">
+  </head>
+  <body>
+  <div id="wrapper">
+    <header>
+      <a href="index.html"><img src="SaraPaints.png" width="53%"></a>
+    </header>
+    <nav>
+      <ul>
+	<li><a href="index.html">Home</a></li>
+        <li class="altnav"><a href="artgallery.html">Art Gallery</a></li>
+	<li><a href="pricingordering.html">Pricing & Ordering</a>
+          <ul>
+            <li><a href="priceguide.html">Price Guide</a></li>
+            <li><a href="order.html">Order Here</a></li>
+          </ul>
+        </li>
+	<li class="altnav"><a href="fromtheartist.html">From the Artist</a>
+          <ul>
+            <!-- <li><a href="videotutorials.html">Video Tutorials</a></li> -->
+            <li><a href="tipstricks.html">Tips & Tricks</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </li>
+	<li><a href="reviewforum.html">Review Forum</a></li>
+      </ul>
+    </nav>
+    <br>
+    <br>
+    <main>
+      <div class="pagename">
+        <h2>Price Guide</h2>
+      </div>
+      <div class="instructions">
+        <h3>Add Medium, Concept, & Canvas for Estimate!</h3>
+        <h4>Concept not applied for Woodburn</h4>
+      </div>
+        <table class="medium">
+          <tr class="tablename">
+            <td colspan="2">Medium</td>
+          </tr>
+          <tr>
+            <td>$50 • Acrylic</td>
+            <td>$30 • Watercolor</td>
+          </tr>
+          <tr class="altrow">
+            <td>$35 • Woodburn</td>
+            <td>$30 • Pencil</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+          <tr class="tablename">
+            <td colspan="2">Concept</td>
+          </tr>
+          <tr>
+            <td>$40 • Portrait</td>
+            <td>$20 • Abstract</td>
+          </tr>
+          <tr class="altrow">
+            <td>$25 • Landscape</td>
+            <td>$25 • Object</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <table class="canvas">
+          <tr class="tablename">
+            <td colspan="2">Canvas</td>
+          </tr>
+          <tr>
+            <td>$5 • 11x14 Flat</td>
+            <td>$35 • Milk Can</td>
+          </tr>
+          <tr class="altrow">
+            <td>$6 • 16x20</td>
+            <td>$15 • Watering Can</td>
+          </tr>
+          <tr>
+            <td>$7 • 18x24</td>
+            <td>$30 • Cast Iron Griddle</td>
+          </tr>
+          <tr class="altrow">
+            <td>$7 • 11x14 Stretched</td>
+            <td>$20 • Wood Cutting Board</td>
+          </tr>
+          <tr>
+            <td>$10 • 16x20</td>
+            <td>$7+ • Wood Box</td>
+          </tr>
+          <tr class="altrow">
+            <td>$12 • 18x24</td>
+            <td>$13+ • Canvas Shoes</td>
+          </tr>
+          <tr>
+            <td>$2 • 8.5x11 Paper</td>
+            <td>$10 • Canvas Tote</td>
+          </tr>
+          <tr class="altrow">
+            <td>$3 • 12x18</td>
+            <td>$35 • Saw</td>
+          </tr>
+          <tr>
+            <td>$15+ • Custom Canvas</td>
+            <td>$12+ • Glass Bulb Ornament*</td>
+          </tr>
+        </table>
+        <br>
+          <div class="note">
+            <sub>*Total price $12-$20, medium and concept not applied</sub>
+          </div>
+        <br>
+        <br>
+      <div class="pagename">
+        <h2>Order Here</h2>
+      </div>
+      <br>
+      <img src="orderscreen.JPG" class="orderpic1">
+    <div id="orderscreen">
+      <br>
+      <form class="order">
+      <br>
+        <label for="medium">*Medium:</label>
+        <input type="text" name="medium" id="medium" required="required" list="mediums">
+          <datalist id="mediums">
+          <option>Acrylic</option>
+          <option>Woodburn</option>
+          <option>Watercolor</option>
+          <option>Pencil</option>
+        </datalist>
+        <br>
+        <label for="canvas">*Canvas:</label>
+        <input type="text" name="canvas" id="canvas" required="required" list="canvases">
+          <datalist id="canvases">
+          <option>11x14 Flat</option>
+          <option>16x20 Flat</option>
+          <option>18x24 Flat</option>
+          <option>11x14 Stretched</option>
+          <option>16x20 Stretched</option>
+          <option>18x24 Stretched</option>
+          <option>8.5x11 Paper</option>
+          <option>12x18 Paper</option>
+          <option>Milk Can</option>
+          <option>Watering Can</option>
+          <option>Cast Iron Griddle</option>
+          <option>Wood Cutting Board</option>
+          <option>Wood Box</option>
+          <option>Canvas Shoes</option>
+          <option>Canvas Tote</option>
+          <option>Saw</option>
+          <option>Glass Bulb Ornament</option>
+          <option>Custom (Specify in Description)</option>
+        </datalist>
+        <br>
+        <label for="image">Image:</label>
+        <input type="file" name="image">
+        <br>
+        <label for="description">*Description:</label>
+        <textarea name="description" id="description" required="required" rows="5" cols="20"></textarea>
+        <h4>*Required Fields</h4>
+        <br>
+        <input type="submit" value"Submit Order" class="ordersubmit">
+      </form>
+      <img src="orderscreen.JPG" class="orderpic2">
+    </div>
+      <br>
+      <br>
+      <div>
+        <footer>
+          <small><i>Copyright &copy; 2020 Sara Jenkins</i></small>
+        </footer>
+      </div>
+    </main>
+  </div>
+  </body>
+</html>
